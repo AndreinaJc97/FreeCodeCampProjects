@@ -3,15 +3,28 @@ body{
     font-family: 'Oswald', sans-serif;
     
 }
-
 img{
     margin: auto;
     width: 1200px;
     height: 450px;
-    padding: 10px;
+    padding: 25px;
 }
 h2{
     text-align: center;
+}
+#tribute-info p{
+    text-align: center;
+    padding-top: 20px;
+}
+#tribute-info ul{
+    list-style: none;
+}
+#tribute-info ul li::before{
+  padding-left: 2rem;
+  content: "❤";
+  color: rgb(229, 75, 75);
+  display: inline-block;
+  width: 1.5em;
 }
 #main{
     background-color: rgb(250, 193, 185);
@@ -22,8 +35,10 @@ h2{
 }
 #img-div{
     background-color:rgb(252, 213, 209);
-    border-radius: 1%;
     text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 #title{
     text-align: center;
