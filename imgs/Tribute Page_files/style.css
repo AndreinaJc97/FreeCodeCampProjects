@@ -6,26 +6,6 @@ body{
 h2{
     text-align: center;
 }
-img{
-    display: block;
-}
-#img-div{
-    background-color:rgb(252, 213, 209);
-    justify-content: center;
-    text-align: center;
-}
-#img-caption{
-    text-align: center;
-}
-#image{
-    max-width: 100%;
-    height: auto;
-    margin: 0 auto;
-}
-#tribute-info {
-    margin: 0 20% 0 20%;
-    justify-content: space-around;
-}
 #tribute-info p{
     text-align: center;
     padding-top: 16px;
@@ -51,7 +31,13 @@ img{
     flex-direction: column;
     justify-content: center;
 }
-
+#img-div{
+    background-color:rgb(252, 213, 209);
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 #title{
     text-align: center;
 }
@@ -63,5 +49,11 @@ img{
 #personal-quote{
     margin: 15px 0 15px 0;
     text-align: center;
-    background-color: rgb(252, 213, 209);
+    background-color: rgb(252, 213, 209); ;
+}
+#image{
+    margin: auto;
+    max-width: 80%;
+    height: 30em;
+    padding: 25px;
 }
