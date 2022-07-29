@@ -20,10 +20,11 @@ h2{
     list-style: none;
 }
 #tribute-info ul li::before{
-  padding-left: 2rem;
+  padding: 0.5em 0.5rem 0.5em 0;
   content: "❤";
   color: rgb(229, 75, 75);
   display: inline-block;
+  text-align: left;
   width: 1.5em;
 }
 #main{
