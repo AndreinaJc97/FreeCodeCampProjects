@@ -1,14 +1,40 @@
 body{
-    background-color: #FFFFFF;
+    background-color: rgb(245, 235, 234);
     font-family: 'Oswald', sans-serif;
-
+    
 }
 
-header{
-    background-color: rgb(250, 193, 185);
+img{
+    margin: auto;
+    width: 1200px;
+    height: 450px;
+    padding: 10px;
 }
-
+h2{
+    text-align: center;
+}
 #main{
     background-color: rgb(250, 193, 185);
-
+    border-radius: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#img-div{
+    background-color:rgb(252, 213, 209);
+    border-radius: 1%;
+    text-align: center;
+}
+#title{
+    text-align: center;
+}
+#tribute-info{
+    align-items: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+#personal-quote{
+    margin: 15px 0 15px 0;
+    text-align: center;
+    background-color: rgb(252, 213, 209); ;
 }
