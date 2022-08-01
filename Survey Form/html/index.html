@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Survey Form</title>
     <link rel="stylesheet" href="/Survey Form/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -14,21 +17,19 @@
     </header>
     <section id="form-body">
         <form action="" id="survey-form">
-                <label for="fname" id="name-label">First name:</label>
+                <label for="fname" id="name-label">First name</label>
                 <input type="text" id="name" name="fname" placeholder="Firts Name" required>
                 <br>
-                <label for="lastname" id="lastname-label">Last name:</label>
+                <label for="lastname" id="lastname-label">Last name</label>
                 <input type="text" id="lastname" name="lastname" placeholder="Last Name" required>
                 <br>
-                <label for="email" id="email-label">Email:</label>
+                <label for="email" id="email-label">Email</label>
                 <input type="email" id="email" name="email" placeholder="Email" required>
                 <br>
-                <label for="age" id="number-label">Age:</label>
+                <label for="age" id="number-label">Age</label>
                 <input type="number" id="number" placeholder="18" name="age" min="0" max="99">
                 <br>
-                <hr>
-                <br>
-                <label for="typeOfGames">What types of games do you like best?</label>
+                <label for="typeOfGames" id="typeOfGames">What types of games do you like best?</label>
                 <select name="typeOfGames" id="dropdown">
                     <option value="adventure">Adventure</option>
                     <option value="simulation">Simulation </option>
@@ -37,37 +38,35 @@
                     <option value="fighting">Fighting</option>
                 </select>
                 <br>
-                <hr>
-                <br>
-                <p>What's your gender</p>
-                <input type="radio" id="male" name="gender" value="Male">
-                <label for="male">Male</label><br>
-                <input type="radio" id="female" name="gender" value="Female">
-                <label for="female">Female</label><br>
-                <input type="radio" id="non-binary" name="gender" value="Non Binary">
-                <label for="non-binary">Non Binary</label><br>
-                <input type="radio" id="not-defined" name="gender" value="Not defined">
-                <label for="not-defined">Not Defined</label>
+                <p id="chooseGender">What's your gender</p>
+                <input type="radio" class="center" id="male" name="gender" value="Male">
+                <label for="male" class="center">Male</label><br>
+                <input type="radio" class="center" id="female" name="gender" value="Female">
+                <label for="female" class="center">Female</label><br>
+                <input type="radio" class="center" id="non-binary" name="gender" value="Non Binary">
+                <label for="non-binary" class="center">Non Binary</label><br>
+                <input type="radio" class="center" id="not-defined" name="gender" value="Not defined">
+                <label for="not-defined" class="center">Not Defined</label>
                 <br>
                 <br>
-                <p>What games do you play?</p>
-                <input type="checkbox" name="minecraft" id="minecraft" value="minecraft">
-                <label for="minecraft">Minecraft</label><br>
-                <input type="checkbox" name="roblox" id="roblox" value="roblox">
-                <label for="roblox">Roblox</label><br>
-                <input type="checkbox" name="fornite" id="fornite" value="fornite">
-                <label for="fornite">Fornite</label><br>
-                <input type="checkbox" name="lol" id="lol" value="league of legends">
-                <label for="lol">League of Legends</label><br>
-                <input type="checkbox" name="wow" id="wow" value="world of warcraft">
-                <label for="wow">World of Warcraft</label><br>
-                <input type="checkbox" name="elderring" id="elderring" value="elder ring">
-                <label for="elderring">Elder Ring</label><br>
-                <input type="checkbox" name="ggi" id="ggi" value="genshin impact">
-                <label for="ggi">Genshin Impact</label><br>
+                <p class="center">What games do you play?</p>
+                <input class="center"  type="checkbox" name="minecraft" id="minecraft" value="minecraft">
+                <label class="center" for="minecraft">Minecraft</label><br>
+                <input class="center" type="checkbox" name="roblox" id="roblox" value="roblox">
+                <label class="center" for="roblox">Roblox</label><br>
+                <input class="center" type="checkbox" name="fornite" id="fornite" value="fornite">
+                <label class="center" for="fornite">Fornite</label><br>
+                <input class="center" type="checkbox" name="lol" id="lol" value="league of legends">
+                <label class="center" for="lol">League of Legends</label><br>
+                <input class="center" type="checkbox" name="wow" id="wow" value="world of warcraft">
+                <label class="center" for="wow">World of Warcraft</label><br>
+                <input class="center" type="checkbox" name="elderring" id="elderring" value="elder ring">
+                <label class="center" for="elderring">Elder Ring</label><br>
+                <input class="center" type="checkbox" name="ggi" id="ggi" value="genshin impact">
+                <label class="center" for="ggi">Genshin Impact</label><br>
                 <br>
-                <p><label for="apectsofgames">What aspect of a game do you like the most?</label></p>
-                <textarea name="gameaspects" id="gameaspects" cols="50" rows="5"></textarea>
+                <p><label class="center" for="apectsofgames">What aspect of a game do you like the most?</label></p>
+                <textarea class="center" name="gameaspects" id="gameaspects" cols="50" rows="5"></textarea>
 
                 <input type="submit" id="submit" value="Submit">
         </form>

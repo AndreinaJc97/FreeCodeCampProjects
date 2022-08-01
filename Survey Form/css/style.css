@@ -1,24 +1,81 @@
 header{
     text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 #form-body{
     display: flex;
     justify-content: center;
+    font-family: 'Josefin Sans', sans-serif;
+    border-radius: 5%;
 }
 #survey-form{
-    background-color: rgb(238, 142, 185);
-    color: antiquewhite;
+    background-color: rgb(68, 181, 209);
+    color: rgb(1, 9, 46);
+    font-weight: 400;
 }
 #name-label{
     display: block;
+    margin: 20px 0 10px 20px;
+}
+#name{
+    display: block;
+    margin: 5px 0 10px 20px;
+    padding: 2px 40px 2px 0;
+    border-radius: 10px;
+    border-style: none;
+    background-color:rgb(170, 224, 238);
 }
 #lastname-label{
     display: block;
+    margin: 0 0 10px 20px;
+}
+#lastname{
+    display: block;
+    margin: 5px 0 10px 20px;
+    padding: 2px 40px 2px 0;
+    border-radius: 10px;
+    border-style: none;
+    background-color:rgb(170, 224, 238);
 }
 #email-label{
     display: block;
+    margin: 0 0 10px 20px;
+
+}
+#email{
+    display: block;
+    margin: 0 0 10px 20px;
+    padding: 2px 40px 2px 0;
+    border-radius: 10px;
+    border-style: none;
+    background-color:rgb(170, 224, 238);
 }
 #number-label{
     display: block;
+    margin: 0 0 10px 20px;
+
+}
+#number{
+    display: block;
+    margin: 0 0 10px 20px;
+    border-radius: 10px;
+    border-style: none;
+    background-color:rgb(170, 224, 238);
+}
+#typeOfGames{
+    display: block;
+    margin: 0 0 10px 20px;
+}
+#dropdown{
+    display: block;
+    margin: 5px 0 0 20px;
+    padding: 2px 20px 2px 0;
+}
+.center{
+    margin: 5px 0 0 20px;
+}
+#chooseGender{
+    margin: 10px 0 0 20px;
+
 }
