@@ -1,0 +1,24 @@
+header{
+    text-align: center;
+}
+
+#form-body{
+    display: flex;
+    justify-content: center;
+}
+#survey-form{
+    background-color: rgb(238, 142, 185);
+    color: antiquewhite;
+}
+#name-label{
+    display: block;
+}
+#lastname-label{
+    display: block;
+}
+#email-label{
+    display: block;
+}
+#number-label{
+    display: block;
+}
